@@ -1,10 +1,11 @@
-/// <reference types="cypress" />
-
+// @ts-check
 import { Test } from './test'
 
 it('has the right text', () => {
   cy.visit('public/index.html')
   Test.getText('myText')
   // some time later
-  cy.get('@myText').should('be.a', 'string')
+  Test.getAlias('myText').then((s) => {
+    expect(s).to.be.a('string')
+  })
 })

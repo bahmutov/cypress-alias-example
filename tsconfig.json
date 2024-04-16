@@ -1,0 +1,9 @@
+{
+  "include": ["cypress/e2e/**/*.ts", "cypress/e2e/**/*.js"],
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmit": true,
+    "types": ["cypress"]
+  },
+  "lib": ["es2015", "dom"]
+}
