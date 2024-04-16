@@ -2,6 +2,8 @@
 
 > Example documenting a Cypress function that sets an alias
 
+📝 Read the blog post [Cypress Alias Documentation Trick](https://glebbahmutov.com/blog/cypress-alias-documentation/)
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2024
